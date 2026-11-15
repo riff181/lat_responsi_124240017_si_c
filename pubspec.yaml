@@ -1,0 +1,25 @@
+name: lat_responsi_124240017_si_c
+description: Rick & Morty Character Explorer
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  shared_preferences: ^2.2.3
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  crypto: ^3.0.3
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
